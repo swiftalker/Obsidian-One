@@ -74,7 +74,7 @@
 	
 	Jadi, f(n) bukanlah injektif namun surjektif.
 	
-	Jawaban yang lebih make sense: [[GPT-Answer]]
+	Jawaban yang lebih make sense: [here](GPT-Answer.md)
 1. 
     
 2. s
