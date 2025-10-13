@@ -73,11 +73,31 @@
 	Karena untuk sebarang $y \in \mathbb{N}$ (apakah ganjil atau genap) kita selalu dapat menemukan $n \in \mathbb{N}$ sedemikian sehingga f(n) = y, maka terbukti bahwa f adalah surjektif.
 	
 	Jadi, f(n) bukanlah injektif namun surjektif.
+1. Tentukan daerah definisi fungsi, jika
+	a. $f(x) = \sqrt(x^2-1)$
+	b. $f(x) = \frac{x-1}{x} + \sqrt{4-3x-x^2}$ 
+	Jawab:
+
+	a. $f(x) = \sqrt{(x^2 - 1)}$
+	Sebuah fungsi akar kuadrat $f(x) = \sqrt{ g(x) }$ terdefinisi dalam himpunan bilangan real ($\mathbb{R}$) jika dan hanya jika ekspresi dalam akar bernilai $\geq$ 0 / non negatif. Akibatnya, daerah definisi dalam fungsi $f(x) = \sqrt{ (x^2-1) }$ adalah himpunan $\{ x\in \mathbb{R} : x^2 - 1 \geq 0 \}$. Sedemikian $x^2 \geq 1$ berakibat (x+1)(x-1) = 0. Sehingga $x = 1 \cup x = -1$. 
 	
-	Jawaban yang lebih make sense: [here](GPT-Answer.md)
+	Karena titik-titik tersebut membagi garis bilangan real menjadi $(-\infty, -1]$, [-1, 1], $[1, \infty])$. Maka akan diuji nilai pada setiap interval untuk memenuhi pertidaksamaan:
+	1. Untuk interval $(\infty, -1]$, semisal x = -2: (-2 - 1)(-2 + 1) = (-3)(-1) = $3 \geq 0$
+	2. Untuk interval [-1, 1], semisal x = 0: (0 - 1)(0 + 1) = -1 < 0
+	3. Untuk $[1, \infty)$, semisal x = 2: (2 - 1)(2 + 1) = (1)(3) = 3 $\geq$ 0
+	Dengan demikian, hanya [-1, 1] saja yang tidak memenuhi dari pertidaksamaan tersebut, sehingga himpunan penyelesaian dari pertidaksamaan tersebut adalah gabungan dari interval yang memenuhi.
+	
+	Sehingga, daerah fungsi f terhadap $D_f =\{x \in \mathbb{R} | x \leq -1 \cup x \geq 1\}$  atau dalam notasi interval $(-\infty, -1] \cup [1, \infty)$.
+
+	b. $f(x) = \frac{x-1}{x} + \sqrt{ 4-3x-x^2 }$
+	Fungsi f(x) merupakan hasil penjumlahan dari dua fungsi, yaitu fungsi $g(x) = \frac{x-1}{x}$ dan fungsi irasional $h(x) = \sqrt{ 4-3x-x^2 }$. Agar f(x) terdefinisi, kedua fungsi f(x) dan g(x) harus terdefinisi. Sehingga, daerah definisi f(x) adalah irisan dari fungsi g(x) dan h(x) yaitu $D_{f} = D_{g} \cap D_{h}$.
+	
+	- Fungsi g(x) = $\frac{x-1}{x}$sedemikian sehingga $x \neq 0$ sehingga $D_{g} = \{ x \in \mathbb{R} : x \neq 0 \}$
+	- Fungsi h(x) = $\sqrt{ 4-3x-x^2 }$ haruslah $\geq 0$, maka $4-3x-x^2 \geq 0$ atau $x^2-3x+4 \geq 0$ kemudian kalikan -1 sedemikian $-x^2 + 3x -4\leq 0$ sehingga (x+4)(x-1) <= 0 atau faktor-faktornya ialah x = -4 atau x = 1. Karena pertidaksamaan bertanda $\leq$ dan $x^2$ positif, solusinya berada di antara kedua titik pembuat nol. Jadi $D_{h} = \{ x\in \mathbb{R} : -4 \leq x \leq 1\}$
+	
+	Sehingga, $D_{f} = D_{g} \cap D_{h}$ = $\{ x\in \mathbb{R} | -4 \leq x \leq 1, x \neq 0 \}$.
+	
 1. 
-    
-2. s
 
 GLOSARIUM:
 1. Definisi fungsi: 
@@ -85,4 +105,4 @@ GLOSARIUM:
 3. Definisi peta:
 4. Definisi injektif:
 5. Definisi surjektif:
-6. 
+6. Peta dan prapeta adalah konsep yang berlaku setelah domainnya ditentukan.
