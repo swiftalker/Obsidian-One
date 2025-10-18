@@ -97,7 +97,28 @@
 	
 	Sehingga, $D_{f} = D_{g} \cap D_{h}$ = $\{ x\in \mathbb{R} | -4 \leq x \leq 1, x \neq 0 \}$.
 	
-1. 
+1. Tentukan daerah hasil f jika $f(x) = \frac{2x-1}{x+1}$
+	Jawab:
+	Definisi daerah hasil, ialah $R(f) = \{x \in \mathbb{R} : f(x) \in A \}$ untuk $f: A \to B$. Sehingga jika $f(x) = \frac{2x-1}{x+1}$  maka $x + 1 \neq 0$ atau $x=-1$ diakibatkan pecahan tidak boleh memiliki nilai = 0.  
+	
+	Selanjutnya, misal $y=f(x)=\frac{2x-1}{x+1}$ maka $y(x+1)=2x-1 \implies yx + y = 2x -1 \implies yx -2x = -1-y \implies  x(y-2)=-(1+y) \implies x = \frac{1+y}{y-2}$.
+	Jika $y - 2 \neq 0 \implies y \neq 2$. Semisal y = 2, jelas tidak mungkin. Jadi, secara domain untuk $x=-1$ tidak diijinkan dan secara range y = 2 tidak diizinkan.
+	
+	Kesimpulannya ialah $R(f) = \{ x \in \mathbb{R} : x \neq 2\}$.
+	
+1. Tentukan $f(\mathbb{R})$ jika
+	$$
+	f(x) = \begin{cases}
+	x + \frac{1}{x}, & x > 0 \\
+    3x - 1, & x \leq 0
+	\end{cases}
+	$$
+	Jawab:
+	Karena $f(\mathbb{R})$ sedemikian terdapat dua kasus, ialah:
+	- f(x) = $x + \frac{1}{x}$ dengan x > 0 maka, f(x) = $\left\{  x + \frac{1}{x}: x > 0 \cap x \in \mathbb{R} \right\}$ namun karena terdapat dua ekspresi yaitu x yang mana x dapat berperilaku $x \in \mathbb{R}$ namun untuk kasus 1/x, $x \neq 0$ sehingga $x + 1/x != 0 \implies x = -\frac{1}{x} \implies x^2 \neq 1$ jadi terdapat dua faktor untuk kasus ini dimana $x \neq 1 \cup x = 1$. Akibatnya $f(x) = \left\{  x + \frac{1}{x} \in \mathbb{R} : x \neq -1 \cup x \neq 1 \right\}$. Namun karena x hanya menerima x > 0, sehingga $f(x) = \left\{  x + \frac{1}{x} \in \mathbb{R} : x \neq 1 \right\}$
+	- f(x) = 3x-1, dengan $x \leq 0$ maka $f(x) = \{ 3x - 1 \in \mathbb{R} : x \leq 0 \}$ sehingga
+	
+2. 
 
 GLOSARIUM:
 1. Definisi fungsi: 
