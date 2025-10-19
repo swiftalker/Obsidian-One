@@ -115,8 +115,8 @@
 	$$
 	Jawab:
 	Karena $f(\mathbb{R})$ sedemikian terdapat dua kasus, ialah:
-	- f(x) = $x + \frac{1}{x}$ dengan x > 0 maka, f(x) = $\left\{  x + \frac{1}{x}: x > 0 \cap x \in \mathbb{R} \right\}$ namun karena terdapat dua ekspresi yaitu x yang mana x dapat berperilaku $x \in \mathbb{R}$ namun untuk kasus 1/x, $x \neq 0$ sehingga $x + 1/x != 0 \implies x = -\frac{1}{x} \implies x^2 \neq 1$ jadi terdapat dua faktor untuk kasus ini dimana $x \neq 1 \cup x = 1$. Akibatnya $f(x) = \left\{  x + \frac{1}{x} \in \mathbb{R} : x \neq -1 \cup x \neq 1 \right\}$. Namun karena x hanya menerima x > 0, sehingga $f(x) = \left\{  x + \frac{1}{x} \in \mathbb{R} : x \neq 1 \right\}$
-	- f(x) = 3x-1, dengan $x \leq 0$ maka $f(x) = \{ 3x - 1 \in \mathbb{R} : x \leq 0 \}$ sehingga
+	- f(x) = $x + \frac{1}{x}$ dengan x > 0 maka, f(x) = $\left\{  x + \frac{1}{x} \in x \in \mathbb{R} : x > 0\right\}$ namun karena terdapat dua ekspresi yaitu x yang mana x dapat berperilaku $x \in \mathbb{R}$ namun untuk kasus $\frac{1}{x}$, $x \neq 0$ sehingga $x + \frac{1}{x} \neq 0 \implies x = -\frac{1}{x} \implies x^2 \neq 1$ jadi terdapat dua faktor untuk kasus ini dimana $x \neq 1 \cup x = 1$. Akibatnya $f(x) = \left\{  x + \frac{1}{x} \in \mathbb{R} : x \neq -1 \cup x \neq 1 \right\}$. Namun karena x hanya menerima x > 0, sehingga $f(x) = \left\{  x + \frac{1}{x} \in \mathbb{R} : x \neq 1 \right\}$
+	- f(x) = 3x-1, dengan $x \leq 0$ maka $f(x) = \{ 3x - 1 \in \mathbb{R} : x \leq 0 \}$ akibatnya dengan 3x - 1 dimana $x \leq 0$ sedemikian $3x - 1 \leq 0 \implies 3x \leq 1 \implies x \leq \frac{1}{3}$ 
 	
 2. 
 
