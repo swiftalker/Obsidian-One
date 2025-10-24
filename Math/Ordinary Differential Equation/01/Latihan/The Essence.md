@@ -1,0 +1,11 @@
+- Persamaan diferensial adalah cabang matematika yang menjelaskan masalah-masalah fisis dari berbagai sudut pandang model.
+- Apa yang membedakan persamaan differensial dengan materi sebelumnya seperti kalkulus 1, 2, dan 3? Umumnya kalkulus membentuk kemampuan pemahaman untuk memahami laju, perubahan dan volume. Dimana persamaan diferensial adalah aplikasi lanjut daripada semua konsep itu, dimana kita mencari fungsi itu sendiri dan turunannya. 
+- Kalkulus 1, fokus utamanya ada di limit, kontiunitas, turunan fungsi satu variabel, penerapan turunan terhadap laju perubahan, titik maksimum/minimum, grafik dan optimisasi. Pada dasarnya bagaimana menghitung perubahan kecil dari fungsi f(x) terhadap x
+- Kalkulus 2, fokus utamanya ada integral tak tentu dan tentu, teorema dasar kalkulus, substitusi, parsial dan trigonometri, deret tak hingga dan deret Taylor. Secara sederhana, ini memahami tentang menjumlahkan semua perubahan kecil untuk mendapatkan fungsi atau luas.
+- Kalkulus 3, fokus utamanya ada pada fungsi multivariabel semisal f(x,y), turunan parsial, gradien, divergensi dan rotasi / curl, integral ganda, integral permukaan, teorema green, gauss dan stokes. Secara sederhana memahami bagaimana perubahan terjadi dan integrasi terjadi pada dimensi yang lebih tinggi
+- Memahami PD orde satu digunakan untuk memberikan dasar mempelajari PD dengan order yang lebih tinggi. Ini meliputi pengertian PD orde satu, jenis-jenis PD orde satu yang dapat diselesaikan dan metode yang digunakan, serta penentuan PD orde satu yang solusi umumnya diketahui.
+- PD orde satu dibagi dua bentuk yaitu implisit dan eksplisit, dimana:
+	  - Implisit berbentuk $F\left( x,y, \frac{dy}{dx} \right) = 0$ atau $F(x,y,y') = 0$
+	  - Eksplisit berbentuk $\frac{dy}{dx} = f(x, y)$ atau y' = f(x,y)
+	Cara membedakan nya cukup sederhana, bila aksen pada suatu variabel memiliki jumlah yang lebih banyak, berarti itu dibaca sebagai "orde x"
+- 
