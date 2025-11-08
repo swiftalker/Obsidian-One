@@ -114,11 +114,49 @@
 	\end{cases}
 	$$
 	Jawab:
-	Karena $f(\mathbb{R})$ sedemikian terdapat dua kasus, ialah:
-	- f(x) = $x + \frac{1}{x}$ dengan x > 0 maka, f(x) = $\left\{  x + \frac{1}{x} \in x \in \mathbb{R} : x > 0\right\}$ namun karena terdapat dua ekspresi yaitu x yang mana x dapat berperilaku $x \in \mathbb{R}$ namun untuk kasus $\frac{1}{x}$, $x \neq 0$ sehingga $x + \frac{1}{x} \neq 0 \implies x = -\frac{1}{x} \implies x^2 \neq 1$ jadi terdapat dua faktor untuk kasus ini dimana $x \neq 1 \cup x = 1$. Akibatnya $f(x) = \left\{  x + \frac{1}{x} \in \mathbb{R} : x \neq -1 \cup x \neq 1 \right\}$. Namun karena x hanya menerima x > 0, sehingga $f(x) = \left\{  x + \frac{1}{x} \in \mathbb{R} : x \neq 1 \right\}$
-	- f(x) = 3x-1, dengan $x \leq 0$ maka $f(x) = \{ 3x - 1 \in \mathbb{R} : x \leq 0 \}$ akibatnya dengan 3x - 1 dimana $x \leq 0$ sedemikian $3x - 1 \leq 0 \implies 3x \leq 1 \implies x \leq \frac{1}{3}$ 
+	Untuk menentukan $f(\mathbb{R})$, tunjukkan daerah hasil / range dari fungsi f untuk seluruh domain nya, $\mathbb{R}$. Pecah domain $\mathbb{R}$ menjadi dua bagian sesuai definisi fungsinya yaitu $A = \{x \in \mathbb{R} | x \leq 0 \}$ dan $B =\{ x \in \mathbb{R} | x > 0\}$. Sehingga daerah hasil totalnya adalah gabungan dari daerah hasil kedua bagia ntersebut $f(\mathbb{R}) = f(A) \cup f(B)$.
 	
-2. 
+	Kasus 1: f(A) untuk $A = \{ x | x \leq 0\}$. Pada domain ini, fungsi yang berlaku adalah f(x) = 3x-1.
+	
+	Fungsi ini adalah linear dengan gradien positif, yang berarti f(x) adalah naik monoton. Karena naik monoton, nilai maksimum dari potongan ini akan terjadi pada nilai x terbesar dalam domainnya, yaitu x = 0. Karena domainnya tidak terbatas ke bawah ($x \to - \infty$). aka nilai f(x) juga tidak terbatas ke bawah ($f(x) \to -\infty$). Jadi daerah hasil untuk bagian ini adalah $f(A) = (\infty, -1]$.
+	
+	Kasus 2: f(B) untuk $B = \{ x | x > 0 \}$. Pada domain ini fungsi yang berlaku adalah $f(x) = x + \frac{1}{x}$ .
+	
+	Cari nilai minimum dari fungsi ini pada domain x > 0. Dapat digunakan pertidaksamaan rata-rata aritmetika-geometrika yang idenya serupa dengan berbagai pertidaksamaan di modul 2.
+	
+	Karena x > 0, maka $\frac{1}{x}$ juga > 0. Untuk dua bilangan positif x dan $\frac{1}{x}$, berlaku: 
+	$$
+\frac{x+\frac{1}{x}}{2} \geq \sqrt{ x \cdot \frac{1}{x} } 
+
+$$	
+$$
+\frac{x+\frac{1}{x}}{2} \geq \sqrt{ 1 }
+$$
+$$
+\frac{f(x)}{2} \geq 1
+$$
+$$
+f(x) \geq 2
+$$
+	Ini menujukkan bahwa nilai minimum dari f(x) pada domain ini adalah 2. (Nilai minimum ini tercapai saat x = $\frac{1}{x}$, yaitu $x^2 = 1$ sehingga x = 1). Saat $x \to \infty$ atau $x \to 0^+$ nilai f(x) akan menuju $\infty$.
+	Jadi, daerah hasil untuk bagian ini adalah f(B) = $[2, \infty]$.
+	Jadi menggambungkan daerah hasil total $f(\mathbb{R})$ adalah gabungan dari f(A) dan f(B). $f(\mathbb{R}) = f(A) \cup f(B) = (-\infty, -1] \cup [2, \infty)$. Jadi, $f(\mathbb{R}) = \{ y \in \mathbb{R} | y \leq -1  \cup y \geq 2\}$.
+9. Diberikan fungs-fungsi $f,g: \mathbb{R} \to \mathbb{R}$ dengan rumus
+   $$
+f(x) = \begin{cases}
+x, & x \geq 0 \\
+3 + x, & x < 0
+\end{cases}
+$$
+$$
+, g(x) = \begin{cases}
+1-x,& x \geq 0  \\
+\frac{(x-1)}{x}, & x < 0
+\end{cases}
+$$
+	Tentukan rumus untuk $g \circ f$.
+	Jawab:
+	Berdasarkan definisi fungsi komposisi (Definisi 1.6) dimana suatu fungsi $f: A \to B$ disebut fungsi jika ia fungsi injektif (fungsi 1-1), dimana untuk setiap $x,y\in A$ dengan $x\neq y$ berakibat $f(x) \neq f(y)$
 
 GLOSARIUM:
 1. Definisi fungsi: 
