@@ -156,7 +156,45 @@ $$
 $$
 	Tentukan rumus untuk $g \circ f$.
 	Jawab:
-	Berdasarkan definisi fungsi komposisi (Definisi 1.6) dimana suatu fungsi $f: A \to B$ disebut fungsi jika ia fungsi injektif (fungsi 1-1), dimana untuk setiap $x,y\in A$ dengan $x\neq y$ berakibat $f(x) \neq f(y)$
+	Berdasarkan definisi fungsi komposisi (Definisi 1.6) dimana suatu fungsi $f: A \to B$ disebut fungsi jika ia fungsi injektif (fungsi 1-1), dimana untuk setiap $x,y\in A$ dengan $x\neq y$ berakibat $f(x) \neq f(y)$, fungsi surjektif jika untuk setiap $y \in B$ terdapat $x \in A$ berakibat $y=f(x)$, fungsi bijektif (korespondensi 1-1), jika f injektif sekaligus surjektif. Dimana $(g\circ f)(x) = g(f(x))$. Aturan fungsi g bergantung pada apakah inputnya yaitu f(x) bernilai $\geq 0$ atau $< 0$.
+	
+	Analisa f(x) berdasarkan domain x.
+	Kasus 1: Domain $x \geq 0$.
+	Pada domain ini f(x) = x. Karena $x \geq 0$, maka keluaran f(x) juga harus $\geq 0$. Karena input untuk g adalah $f(x) \geq 0$, gunakan aturan pertama dari g(y) yaitu g(y) = 1-x. Maka g(f(x)) = 1 - f(x) = 1 - x.
+	
+	Kasus 2: Domain x < 0
+	Pada domain ini, f(x) = 3 + x. Kapan $3+x \geq 0$ dan kapan 3 + x < 0?
+	Sub-kasus 2a: Misal $f(x) \geq 0$ => $3+x \geq 0$ => $x \geq -3$. Domain untuk sub-kasus ini adalah gabungan dari x < 0 dan $x\geq-3$, yaitu $-3 \leq x < 0$. Karena $f(x) \geq 0$, gunakan aturan pertama g(y) = 1 - y.g(f(x)) = 1 - f(x) = 1 - (3+x) = -2 - x.
+	Sub-kasus 2b: Misal $f(x) < 0$ => $3+x < 0$ => $x < -3$. Domain untuk sub kasus ini adlaah x < -3. Karena f(x) < 0, gunakan aturan kedua g(y) = $\frac{(y-1)}{y}$. $g(f(x)) = \frac{f(x) - 1}{f(x)} = \frac{(3+x)-1}{3+x} = \frac{2+x}{3+x}$.
+	Dengan menggabungkan semua kasus, diperoleh rumus untuk $g \cirf f$:
+	$$
+ (g \circ f) = \begin{cases}
+\frac{2+x}{3+x}, & x<-3   \\
+-2 - x, & -3 \leq x < 0  \\
+1 - x, & x \geq 0
+\end{cases}
+$$
+9. Diberikan fungsi $f: \mathbb{R} \to \mathbb{R}$ dengan rumus
+$$
+f(x) = \begin{cases}
+x^2, & x \geq 0  \\
+3x, & x < 0
+\end{cases}
+$$
+	Tentukan $f^{-1}(x)$.
+	Jawab:
+	Untuk menentukan fungsi invers $f^{-1}$, balik prosesnya. Atur y = f(x) dan menyelesaikan x dalma bentuk y. Tentukan juga daerah hasil / range dari setiap potongan f untuk menjadi daerah definisi atau domain dari $f^{-1}$. 
+	
+	Kasus 1: Domain $x \geq 0$
+	Fungsi y = f(x) $= x^2$. Jika $x\geq0$, maka y = $x^2 \geq 0$. Jadi daerah hasil untuk potongan ini adalah $y\geq0$. Sehingga $y=x^2 \to x = \pm \sqrt{ y }$. Karena domain untuk potongan ini adalah $x \geq 0$, pilih akar non negatif sedemikian x = $\sqrt{ y }$. Sehingga $f^{-1} (y) = \sqrt{ y }$, untuk domain $y \geq 0$.
+	
+	Kasu 2: Domain x < 0
+	Fungsi y = f(x) = 3x. Jika x < 0, maka y  = 3x < 0. Jadi, daerah hasil untuk potongan ini adalah y < 0. Sedemikian sehingga y = 3x => x = y/3. NIlai x = y/3 ini secara otomatis memenuhi domain x < 0 karena y < 0. $f^{-1} (y) = \frac{y}{3}$ untuk domain y < 0 .
+	
+	Dengan menggabungkan kedua potongan dan mengganti variabel y kembali ke x untuk notasi standar, kita dapatkan $$f^{-1} = \begin{cases}
+\sqrt{ x }, x \geq 0 \\ \\
+\frac{x}{3}, x < 0
+\end{cases}$$
 
 GLOSARIUM:
 1. Definisi fungsi: 
