@@ -13,3 +13,24 @@ d.s
 $x_{1} \leq 1000$
 $x_{2} \leq 500$
 $x_{1}/50 + x_{2}/25 + x_{3}/75 \leq 45$
+dan $x_{1}, x_{2}, x_{3} \geq 0$
+
+Masalah pengaturan gizi makakan (Diet Problem)
+Seorang penanggung jawab penyedia makanan anak sekolah setiap harinya mempersiapkan menu makan siang di suatu sekolah. Setiap harinya digunakan beberapa makanan dasar yang dikombinasikan untuk dimasak. Penanggung jawab tersebut bertanggung jawab untuk menjamin agar siswa memenuhi kebutuhan minimum dari nutrisi yang diperlukan. Dalam hal ini, kebutuhan minimal kandungan nutrisi yang diperlukan untuk makan siang adalah 10 unit protein, 7 unit vitamin A, dan 8 unit zat besi. Digunakan dua makanan dasar dalam penyusunan menu makan siang (sebut F1 dan F2). Setiap 1 gram F1, mengandung 2 unit protein, 2 unit vitamin A, dan 1 1/2 unit zat besi. Setiap 1 gram F2 mengandung 2 unit protein, 1 unit vitamin A dan 2 unit zat besi. Harga per gram F1 adalah Rp 300 dan per gram F2 adalah Rp 400. Masalah yang dihadapi: bagaimana menentukan campuran 2 makanan ke dalam makanan siang sedemikian sehingga setiap siswa akan menerima sejumlah nutrisi yang diperlukan dan biaya makan siang yang minimum.
+
+Jawab:
+Di sini peubah keputusannya adalah banyaknya F1 (dalam gram) dan banyaknya F2 (dalam gram) yang akan digunakan. Misal, $x_{1}$ = banyaknya (dalam gram) F1; $x_{2} =$ banyaknya dalam gram F2. Biaya yang diperlukan adalah $3x_{1} + 4x_{2}$; persyaratan kandungan nutrisi:
+(i) Protein: $2x_{1} + 2x_{2} \geq 10$ atau $x_{1} + x_{2} \geq 5$
+(ii) Vitamin A: $2x_{1}+x_{2} \geq_{7}$
+(iii) Zat besi: 4/3 $x_{1}$ + $2x_{2} \geq 8$ atau $2x_{1} +3x_{2} \geq 12$
+
+Jadi, model matematis masalahnya adalah sebagai berikut:
+min. $3x_{1} + 4x_{2}$
+d.s 
+$x_{1} + x_{2} \geq 5$
+$2x_{2} + x_{2} \geq 7$
+$2x_{1} + 3x_{2} \geq 7$
+dan
+$x_{1},x_{2} \geq 0$
+
+
