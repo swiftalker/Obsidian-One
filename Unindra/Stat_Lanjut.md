@@ -1,1 +1,194 @@
-Berdasarkan materi P9 (Pengujian Hipotesis) dan P10 (Lanjutan), berikut adalah penyelesaian untuk soal tersebut. Identifikasi Masalah Diketahui data dari soal: Hipotesis Awal: Siswa memiliki kecerdasan di atas rata-rata (uji satu arah kanan)111. Rata-rata Populasi ($\mu_0$): 100. Standar Deviasi Populasi ($\sigma$): 15 (Simpangan baku diketahui)2222. Sampel ($n$): 30 (Karena $n \ge 30$, maka menggunakan statistik Z)3. Rata-rata Sampel ($\bar{x}$): 112,5. Taraf Signifikansi ($\alpha$): 5% atau 0,05. Langkah-Langkah Pengujian 1. Formulasi Hipotesis Berdasarkan materi P9 mengenai uji satu arah (One-Sided Test)4: $H_0: \mu \le 100$ (Kecerdasan siswa sama atau kurang dari rata-rata). $H_1: \mu > 100$ (Kecerdasan siswa di atas rata-rata). 2. Menentukan Taraf Nyata dan Nilai Kritis $\alpha = 0,05$ Karena uji satu arah kanan ($>$), wilayah penolakan berada di ekor kanan kurva normal5. Nilai $Z_{tabel}$ untuk $\alpha = 0,05$ adalah 1,645 (diperoleh dari tabel kurva normal standar). Kriteria Keputusan: Tolak $H_0$ jika $Z_{hitung} > 1,645$6. 3. Statistik Uji Karena standar deviasi populasi ($\sigma$) diketahui dan jumlah sampel besar ($n \ge 30$), digunakan rumus Uji Z sesuai materi P97: $$Z = \frac{\bar{x} - \mu_0}{\frac{\sigma}{\sqrt{n}}}$$ 4. Perhitungan Substitusi nilai ke dalam rumus: $$Z = \frac{112,5 - 100}{\frac{15}{\sqrt{30}}}$$ Hitung penyebut (Standard Error): $$\frac{15}{5,477} \approx 2,739$$ Hitung nilai Z: $$Z = \frac{12,5}{2,739}$$ $Z_{hitung} \approx 4,56$ 5. Pengambilan Keputusan Bandingkan $Z_{hitung}$ dengan $Z_{tabel}$: $$4,56 > 1,645$$ Karena nilai $Z_{hitung}$ berada di wilayah penolakan (lebih besar dari nilai kritis), maka $H_0$ Ditolak8. Kesimpulan Berdasarkan pengujian pada taraf signifikan 5%, klaim kepala sekolah dapat dibenarkan. Terdapat cukup bukti statistik untuk menyatakan bahwa rata-rata kecerdasan (IQ) siswa di sekolah tersebut berada di atas rata-rata populasi (lebih dari 100). soal no 1 Berikut adalah penyelesaian soal tersebut dengan format buku yang sederhana, mengacu pada metode pengujian varians yang dijelaskan pada materi Pertemuan 11 (Ilustrasi 3). Diketahui: Ban S (Varians Besar): $n_2 = 7$, $s_2^2 = 8.000$ Ban R (Varians Kecil): $n_1 = 9$, $s_1^2 = 4.500$ Taraf Nyata ($\alpha$): 0,05 Jawab: Hipotesis $H_0 : \sigma_1^2 = \sigma_2^2$ (Tidak ada perbedaan varians ketahanan ban). $H_1 : \sigma_1^2 \neq \sigma_2^2$ (Ada perbedaan varians ketahanan ban) 1. Statistik Uji ($F_{hitung}$) $$F = \frac{S_{terbesar}^2}{S_{terkecil}^2} = \frac{8.000}{4.500} = \mathbf{1,78}$$ 2. Nilai Tabel ($F_{tabel}$) Karena uji dua pihak, $\alpha$ dibagi dua menjadi $0,025$. $df_{pembilang} (Ban S) = 7 - 1 = 6$ $df_{penyebut} (Ban R) = 9 - 1 = 8$ $F_{0,025(6,8)} = \mathbf{4,65}$ (Berdasarkan tabel distribusi F standar). Kriteria Keputusan Jika $F_{hitung} > F_{tabel}$, maka Tolak $H_0$. Jika $F_{hitung} \le F_{tabel}$, maka Terima $H_0$ 3. Kesimpulan Karena $F_{hitung} (1,78) < F_{tabel} (4,65)$, maka $H_0$ Diterima. Jadi, pada taraf nyata 5%, tidak terdapat perbedaan varians ketahanan jalan raya antara Ban S dan Ban R. soal no 2. soal no 3. Berikut adalah penyelesaian soal tersebut yang ditulis dalam format sederhana layaknya catatan penyelesaian tugas atau ujian (menggunakan metode Uji-t Sampel Berpasangan karena subjek yang diamati sama). Diketahui: $n = 10$ $\alpha = 5\% = 0,05$ Jawab: 1. Formulasi Hipotesis $H_0: \mu_d = 0$ (Tidak terdapat perbedaan produktivitas kerja dosen). $H_1: \mu_d \neq 0$ (Terdapat perbedaan produktivitas kerja dosen). 2. Tabel Perhitungan Bantu Misalkan $d = \text{Sesudah} - \text{Sebelum}$ NoSebelum (X1​)Sesudah (X2​)Beda (d)d2175851010028090101003657510100470755255757500680901010076570525880855259909000107570-525Total $\Sigma d = 50$$\Sigma d^2 = 500$ 3. Perhitungan Statistik Uji Rata-rata beda ($\bar{d}$): $$\bar{d} = \frac{\Sigma d}{n} = \frac{50}{10} = 5$$ Standar Deviasi beda ($S_d$): $$S_d = \sqrt{\frac{\Sigma d^2 - \frac{(\Sigma d)^2}{n}}{n-1}}$$ $$S_d = \sqrt{\frac{500 - \frac{(50)^2}{10}}{9}}$$ $$S_d = \sqrt{\frac{500 - 250}{9}} = \sqrt{27,78} \approx 5,27$$ Nilai t-hitung ($t_{hit}$): $$t = \frac{\bar{d}}{\frac{S_d}{\sqrt{n}}}$$ $$t = \frac{5}{\frac{5,27}{\sqrt{10}}} = \frac{5}{1,67} \approx \mathbf{3,00}$$ 4. Nilai Kritis (t-tabel) Taraf nyata: $\alpha = 0,05$ (Uji 2 pihak $\to \alpha/2 = 0,025$) Derajat kebebasan ($db$): $n - 1 = 10 - 1 = 9$ Dari tabel distribusi t: $t_{0,025;9} = \mathbf{2,262}$ 5. Keputusan Bandingkan mutlak $|t_{hitung}|$ dengan $t_{tabel}$: $$3,00 > 2,262$$ Keputusan: Tolak $H_0$. 6. Kesimpulan Pada taraf signifikan 5%, terbukti bahwa terdapat perbedaan nilai produktivitas kerja dosen antara sebelum dan sesudah diberi pelatihan Matlab. soal no 4. Berikut adalah penyelesaian soal tersebut dengan format sederhana, seperti catatan buku, menggunakan metode ANOVA Satu Arah (One Way Anova) yang terdapat pada materi Statistika Lanjut (Pertemuan 13, halaman 1-2) karena kasus ini membandingkan rata-rata lebih dari dua kelompok (3 Merek) 1. Diketahui: k (Jumlah kelompok): 3 (Brand A, B, C) n (Jumlah sampel per kelompok): 5 N (Total sampel): 15 $\alpha$ (Taraf nyata): 5% (0,05) Data Perhitungan Awal: NoBrand A (X1​)Brand B (X2​)Brand C (X3​)14228242303636339312842832285292733Total ($T$)168154149Kuadrat ($X^2$)581047944529 Total Keseluruhan (G): $168 + 154 + 149 = 471$ 2 Jumlah Kuadrat Data ($\Sigma X^2_{total}$): $5810 + 4794 + 4529 = 15.133$ 1. Hipotesis $H_0$: $\mu_A = \mu_B = \mu_C$ (Tidak ada perbedaan rata-rata masa pakai antar merek). $H_1$: Minimal ada satu rata-rata merek yang berbeda. 2. Perhitungan Jumlah Kuadrat (JK) Rumus koreksi ($FK$) = $\frac{G^2}{N} = \frac{471^2}{15} = \frac{221.841}{15} = 14.789,4$ 3 JK Total (JKT): $$JKT = \Sigma X^2_{total} - FK$$ $$JKT = 15.133 - 14.789,4 = \mathbf{343,6}$$ 4 JK Antar Kelompok (JKA): $$JKA = \left( \frac{T_A^2}{n} + \frac{T_B^2}{n} + \frac{T_C^2}{n} \right) - FK$$ $$JKA = \left( \frac{168^2}{5} + \frac{154^2}{5} + \frac{149^2}{5} \right) - 14.789,4$$ $$JKA = (5.644,8 + 4.743,2 + 4.440,2) - 14.789,4$$ $$JKA = 14.828,2 - 14.789,4 = \mathbf{38,8}$$ 5 JK Galat/Dalam Kelompok (JKG): $$JKG = JKT - JKA$$ $$JKG = 343,6 - 38,8 = \mathbf{304,8}$$ 6 3. Tabel ANOVA Sumber VariansJKdb (derajat bebas)RK (Rata-rata Kuadrat)F HitungAntar Kelompok (A)38,8$k-1 = 3-1 = \mathbf{2}$$38,8 / 2 = \mathbf{19,4}$$\frac{19,4}{25,4} = \mathbf{0,76}$Galat (G)304,8$N-k = 15-3 = \mathbf{12}$$304,8 / 12 = \mathbf{25,4}$ Total343,6$15-1 = 14$ Perhitungan F Hitung = $RKA / RKG$ 7 4. Kesimpulan F Hitung: 0,76 F Tabel ($F_{0,05; 2; 12}$): 3,89 (Dilihat dari tabel distribusi F untuk $\alpha=0,05$, $db_1=2$, $db_2=12$) 8 Keputusan: Karena $F_{hitung} < F_{tabel}$ ($0,76 < 3,89$), maka $H_0$ Diterima. Jadi, tidak terdapat perbedaan yang signifikan (nyata) pada rata-rata masa pakai di antara ketiga merek baterai tersebut.
+Berdasarkan materi P9 (Pengujian Hipotesis) dan P10 (Lanjutan), berikut adalah penyelesaian untuk soal tersebut.
+### **Identifikasi Masalah**
+Diketahui data dari soal:
+- **Hipotesis Awal:** Siswa memiliki kecerdasan di atas rata-rata (uji satu arah kanan)111.
+- **Rata-rata Populasi ($\mu_0$):** 100.
+- **Standar Deviasi Populasi ($\sigma$):** 15 (Simpangan baku diketahui)2222.
+- **Sampel ($n$):** 30 (Karena $n \ge 30$, maka menggunakan statistik Z)3.
+- **Rata-rata Sampel ($\bar{x}$):** 112,5.
+- **Taraf Signifikansi ($\alpha$):** 5% atau 0,05.
+---
+### **Langkah-Langkah Pengujian**
+1. Formulasi Hipotesis
+Berdasarkan materi P9 mengenai uji satu arah (One-Sided Test)4:
+- **$H_0: \mu \le 100$** (Kecerdasan siswa sama atau kurang dari rata-rata).
+- **$H_1: \mu > 100$** (Kecerdasan siswa **di atas** rata-rata).
+**2. Menentukan Taraf Nyata dan Nilai Kritis**
+- $\alpha = 0,05$
+- Karena uji satu arah kanan ($>$), wilayah penolakan berada di ekor kanan kurva normal.
+- Nilai **$Z_{tabel}$** untuk $\alpha = 0,05$ adalah **1,645** (diperoleh dari tabel kurva normal standar).
+- **Kriteria Keputusan:** Tolak $H_0$ jika $Z_{hitung} > 1,645$6.
+1. Statistik Uji
+Karena standar deviasi populasi ($\sigma$) diketahui dan jumlah sampel besar ($n \ge 30$), digunakan rumus Uji Z sesuai materi P97:
+$$Z = \frac{\bar{x} - \mu_0}{\frac{\sigma}{\sqrt{n}}}$$
+**4. Perhitungan**
+
+- Substitusi nilai ke dalam rumus:
+    $$Z = \frac{112,5 - 100}{\frac{15}{\sqrt{30}}}$$
+- Hitung penyebut (Standard Error):
+$$\frac{15}{5,477} \approx 2,739$$
+- Hitung nilai Z:
+$$Z = \frac{12,5}{2,739}$$$Z_{hitung} \approx 4,56$
+**5. Pengambilan Keputusan**
+- Bandingkan $Z_{hitung}$ dengan $Z_{tabel}$:
+- $$4,56 > 1,645$$
+- Karena nilai $Z_{hitung}$ berada di wilayah penolakan (lebih besar dari nilai kritis), maka **$H_0$ Ditolak**8.
+---
+### **Kesimpulan**
+Berdasarkan pengujian pada taraf signifikan 5%, **klaim kepala sekolah dapat dibenarkan**. Terdapat cukup bukti statistik untuk menyatakan bahwa rata-rata kecerdasan (IQ) siswa di sekolah tersebut berada di atas rata-rata populasi (lebih dari 100).
+
+---
+Berikut adalah penyelesaian soal tersebut dengan format buku yang sederhana, mengacu pada metode pengujian varians yang dijelaskan pada materi **Pertemuan 11** (Ilustrasi 3).
+**Diketahui:**
+- **Ban S (Varians Besar):** $n_2 = 7$, $s_2^2 = 8.000$
+- **Ban R (Varians Kecil):** $n_1 = 9$, $s_1^2 = 4.500$
+- **Taraf Nyata ($\alpha$):** 0,05
+**Jawab:**
+1. **Hipotesis**
+    - $H_0 : \sigma_1^2 = \sigma_2^2$ (Tidak ada perbedaan varians ketahanan ban).
+    - $H_1 : \sigma_1^2 \neq \sigma_2^2$ (Ada perbedaan varians ketahanan ban) 1.
+2. Statistik Uji ($F_{hitung}$)
+    $$F = \frac{S_{terbesar}^2}{S_{terkecil}^2} = \frac{8.000}{4.500} = \mathbf{1,78}$$
+3. Nilai Tabel ($F_{tabel}$)
+    Karena uji dua pihak, $\alpha$ dibagi dua menjadi $0,025$.
+    - $df_{pembilang} (Ban S) = 7 - 1 = 6$
+    - $df_{penyebut} (Ban R) = 9 - 1 = 8$
+    - $F_{0,025(6,8)} = \mathbf{4,65}$ (Berdasarkan tabel distribusi F standar).
+4. **Kriteria Keputusan**
+    - Jika $F_{hitung} > F_{tabel}$, maka Tolak $H_0$.
+    - Jika $F_{hitung} \le F_{tabel}$, maka Terima $H_0$ 3.
+5. Kesimpulan
+    Karena $F_{hitung} (1,78) < F_{tabel} (4,65)$, maka $H_0$ Diterima.
+    Jadi, pada taraf nyata 5%, tidak terdapat perbedaan varians ketahanan jalan raya antara Ban S dan Ban R.
+---
+Berikut adalah penyelesaian soal tersebut yang ditulis dalam format sederhana layaknya catatan penyelesaian tugas atau ujian (menggunakan metode **Uji-t Sampel Berpasangan** karena subjek yang diamati sama).
+
+---
+**Diketahui:**
+- $n = 10$
+- $\alpha = 5\% = 0,05$
+**Jawab:**
+**1. Formulasi Hipotesis**
+- $H_0: \mu_d = 0$ (Tidak terdapat perbedaan produktivitas kerja dosen).
+- $H_1: \mu_d \neq 0$ (Terdapat perbedaan produktivitas kerja dosen).
+2. Tabel Perhitungan Bantu
+Misalkan $d = \text{Sesudah} - \text{Sebelum}$
+
+|**No**|**Sebelum (X1​)**|**Sesudah (X2​)**|**Beda (d)**|**d2**|
+|---|---|---|---|---|
+|1|75|85|10|100|
+|2|80|90|10|100|
+|3|65|75|10|100|
+|4|70|75|5|25|
+|5|75|75|0|0|
+|6|80|90|10|100|
+|7|65|70|5|25|
+|8|80|85|5|25|
+|9|90|90|0|0|
+|10|75|70|-5|25|
+|**Total**|||**$\Sigma d = 50$**|**$\Sigma d^2 = 500$**|
+
+**3. Perhitungan Statistik Uji**
+- Rata-rata beda ($\bar{d}$):
+    $$\bar{d} = \frac{\Sigma d}{n} = \frac{50}{10} = 5$$
+- Standar Deviasi beda ($S_d$):
+    $$S_d = \sqrt{\frac{\Sigma d^2 - \frac{(\Sigma d)^2}{n}}{n-1}}$$
+$$S_d = \sqrt{\frac{500 - \frac{(50)^2}{10}}{9}}$$
+$$S_d = \sqrt{\frac{500 - 250}{9}} = \sqrt{27,78} \approx 5,27$$
+- Nilai t-hitung ($t_{hit}$):
+$$t = \frac{\bar{d}}{\frac{S_d}{\sqrt{n}}}$$
+$$t = \frac{5}{\frac{5,27}{\sqrt{10}}} = \frac{5}{1,67} \approx \mathbf{3,00}$$
+
+**4. Nilai Kritis (t-tabel)**
+- Taraf nyata: $\alpha = 0,05$ (Uji 2 pihak $\to \alpha/2 = 0,025$)
+- Derajat kebebasan ($db$): $n - 1 = 10 - 1 = 9$
+- Dari tabel distribusi t: $t_{0,025;9} = \mathbf{2,262}$
+**5. Keputusan**
+- Bandingkan mutlak $|t_{hitung}|$ dengan $t_{tabel}$:
+$$3,00 > 2,262$$
+- **Keputusan:** **Tolak $H_0$**.
+6. Kesimpulan
+Pada taraf signifikan 5%, terbukti bahwa terdapat perbedaan nilai produktivitas kerja dosen antara sebelum dan sesudah diberi pelatihan Matlab.
+---
+**Diketahui:**
+- **k (Jumlah kelompok):** 3 (Brand A, B, C)
+- **n (Jumlah sampel per kelompok):** 5
+- **N (Total sampel):** 15
+- **$\alpha$ (Taraf nyata):** 5% (0,05)
+**Data Perhitungan Awal:**
+
+| **No**              | **Brand A (X1​)** | **Brand B (X2​)** | **Brand C (X3​)** |
+| ------------------- | ----------------- | ----------------- | ----------------- |
+| 1                   | 42                | 28                | 24                |
+| 2                   | 30                | 36                | 36                |
+| 3                   | 39                | 31                | 28                |
+| 4                   | 28                | 32                | 28                |
+| 5                   | 29                | 27                | 33                |
+| **Total ($T$)**     | **168**           | **154**           | **149**           |
+| **Kuadrat ($X^2$)** | **5810**          | **4794**          | **4529**          |
+
+- **Total Keseluruhan (G):** $168 + 154 + 149 = 471$ 2    
+- **Jumlah Kuadrat Data ($\Sigma X^2_{total}$):** $5810 + 4794 + 4529 = 15.133$
+---
+**1. Hipotesis**
+- **$H_0$:** $\mu_A = \mu_B = \mu_C$ (Tidak ada perbedaan rata-rata masa pakai antar merek).
+- **$H_1$:** Minimal ada satu rata-rata merek yang berbeda.
+2. Perhitungan Jumlah Kuadrat (JK)
+Rumus koreksi ($FK$) = $\frac{G^2}{N} = \frac{471^2}{15} = \frac{221.841}{15} = 14.789,4$ 3
+- JK Total (JKT):
+$$JKT = \Sigma X^2_{total} - FK$$
+$$JKT = 15.133 - 14.789,4 = \mathbf{343,6}$$
+    4
+- JK Antar Kelompok (JKA):
+    $$JKA = \left( \frac{T_A^2}{n} + \frac{T_B^2}{n} + \frac{T_C^2}{n} \right) - FK$$
+    $$JKA = \left( \frac{168^2}{5} + \frac{154^2}{5} + \frac{149^2}{5} \right) - 14.789,4$$
+    $$JKA = (5.644,8 + 4.743,2 + 4.440,2) - 14.789,4$$
+    $$JKA = 14.828,2 - 14.789,4 = \mathbf{38,8}$$
+    5
+- JK Galat/Dalam Kelompok (JKG):
+$$JKG = JKT - JKA$$
+    $$JKG = 343,6 - 38,8 = \mathbf{304,8}$$
+    6
+
+**3. Tabel ANOVA**
+
+| **Sumber Varians**                     | **JK** | **db (derajat bebas)**     | **RK (Rata-rata Kuadrat)**   | **F Hitung**                        |
+| -------------------------------------- | ------ | -------------------------- | ---------------------------- | ----------------------------------- |
+| **Antar Kelompok (A)**                 | 38,8   | $k-1 = 3-1 = \mathbf{2}$   | $38,8 / 2 = \mathbf{19,4}$   | $\frac{19,4}{25,4} = \mathbf{0,76}$ |
+| **Galat (G)**                          | 304,8  | $N-k = 15-3 = \mathbf{12}$ | $304,8 / 12 = \mathbf{25,4}$ |                                     |
+| **Total**                              | 343,6  | $15-1 = 14$                |                              |                                     |
+| _Perhitungan F Hitung = $RKA / RKG$_ 7 |        |                            |                              |                                     |
+
+**4. Kesimpulan**
+- **F Hitung:** 0,76
+- **F Tabel ($F_{0,05; 2; 12}$):** 3,89 (Dilihat dari tabel distribusi F untuk $\alpha=0,05$, $db_1=2$, $db_2=12$) 8
+- **Keputusan:** Karena $F_{hitung} < F_{tabel}$ ($0,76 < 3,89$), maka **$H_0$ Diterima**.
+**Jadi, tidak terdapat perbedaan yang signifikan (nyata) pada rata-rata masa pakai di antara ketiga merek baterai tersebut.**
+---
+
+Nilai **1,645** adalah nilai kritis Z untuk **uji satu arah** (one-tailed test) dengan taraf nyata $\alpha = 5\%$. Dalam distribusi normal standar, kita mencari nilai $Z$ di mana luas daerah di ekor kanan (right tail) adalah $0,05$.
+
+- Luas total di bawah kurva = $1$.
+    
+- Luas di sebelah kiri $Z$ = $1 - 0,05 = 0,95$.
+    
+
+Menggunakan fungsi persentil distribusi normal (Inverse CDF):
+
+$$Z = \Phi^{-1}(0,95) \approx 1,64485...$$
+
+Jika dibulatkan menjadi 3 desimal, nilainya adalah 1,645. Berikut adalah cara mendapatkan angka tersebut secara manual menggunakan Tabel Z:
+1. Tentukan Luas Area:
+    Karena tabel Z biasanya menunjukkan luas dari rata-rata (0) ke $Z$, maka luas area yang dicari adalah:
+$$0,5 - \alpha = 0,5 - 0,05 = \mathbf{0,4500}$$
+2. Cari di Tabel Z:
+    Cari angka 0,4500 di dalam badan tabel. Angka ini tidak tercantum secara eksak, tetapi terletak tepat di tengah-tengah dua nilai berikut:
+    - **0,4495** (Milik $Z = 1,64$)
+    - **0,4505** (Milik $Z = 1,65$)
+3. Interpolasi:
+    Karena 0,4500 berada persis di tengah, kita mengambil rata-rata dari kedua nilai Z tersebut:
+    $$Z = \frac{1,64 + 1,65}{2} = \mathbf{1,645}$$
+### **Kesimpulan**
+Nilai 1,645 digunakan karena soal sebelumnya adalah **uji satu pihak** (_one-tailed_, "lebih besar dari").
+- Jika ujinya **satu pihak** ($\alpha=5\%$), $Z = 1,645$.
+- Jika ujinya **dua pihak** ($\alpha=5\%$, dibagi dua jadi 2,5%), barulah $Z = 1,96$.
