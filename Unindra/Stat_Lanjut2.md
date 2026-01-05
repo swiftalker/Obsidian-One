@@ -5,7 +5,6 @@ _Ciri-ciri: Ada populasi ($N$), diambil sampel ($n$) **tanpa pengembalian**, dan
     - $n$ = Jumlah Sampel yang diambil
     - $K$ = Jumlah unsur "Sukses" di dalam populasi        
     - $p$ = Rasio sukses ($K/N$)
-
 - Rumus Nilai Harapan (Mean):
     $$E(X) = \mu = n \cdot \frac{K}{N}$$
 - Rumus Varians (Ragam):
